@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/weatherForm.css";
-import { getWeather } from '../services/getWeather';
+import { getWeather } from '../App'
 
 const WeatherForm = () => {
 

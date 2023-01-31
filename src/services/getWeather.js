@@ -9,16 +9,15 @@ const getWeather = ev => {
 
   const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${apiKey}&units=metric`;
 
-  let weather = [];
 
   fetch(apiURL)
     .then((data) => {
       return data.json();
     })
-    .then((data) => {return data.push(weather)} );
+    .then((data) => {
+    
+    } );
 
 };
-
-const weather = weather;
 
 export default getWeather;
