@@ -40,14 +40,16 @@
 
 /* Informacion */
 .Card-container {
-    border: 1px solid;
+    border: 1px solid #f8f8ff;
+    border-radius: 2em;
+    box-shadow: inset 0 0 2em #f8f8ff;
 
     padding: 3em;
 
     text-align: center;
 }
 .Card-h1 {
-    
+    font-size: 1,1em;
 }
 .Card-ul {
 
@@ -62,9 +64,9 @@
 
     margin-top: 2em;
 }
-.Card-li {
 
-}
 .Card-svg {
-
+    width: 2em;
+    height: 2em;
+    fill: #f8f8ff;
 }
