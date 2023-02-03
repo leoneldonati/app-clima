@@ -3,45 +3,11 @@
     min-height: 100vh;
     margin: auto;
 
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: space-evenly;
+    display: grid;
+    place-items: center;
 
 
 
 
-    background : linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-
-    animation: bkganimated ease-in 3s  alternate infinite;
-}
-
-@keyframes bkganimated {
-    0% {
-        background : linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-    }
-    12.5% {
-        background : linear-gradient(65deg, #85FFBD 0%, #FFFB7D 100%);
-    }
-    25% {
-        background : linear-gradient(90deg, #85FFBD 0%, #FFFB7D 100%);
-    }
-    37.5% {
-        background : linear-gradient(115deg, #85FFBD 0%, #FFFB7D 100%);
-    }
-    50% {
-        background : linear-gradient(135deg, #85FFBD 0%, #FFFB7D 100%);
-    }
-    65.5% {
-        background : linear-gradient(155deg, #85FFBD 0%, #FFFB7D 100%);
-    }
-    75% {
-        background : linear-gradient(180deg, #85FFBD 0%, #FFFB7D 100%);
-    }
-    85.5% {
-        background : linear-gradient(200deg, #85FFBD 0%, #FFFB7D 100%);
-    }
-    100% {
-        background : linear-gradient(225deg, #85FFBD 0%, #FFFB7D 100%);
-    }
+    background: linear-gradient(180deg, #a6ffff 0, #a2edff 25%, #9dd5f2 50%, #96bed5 75%, #8ea8b9 100%);
 }

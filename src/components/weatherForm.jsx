@@ -45,7 +45,7 @@ const WeatherForm = () => {
 
   
   return (
-    <>
+    <div className="Form">
       <div className="Form-container">
         <label className="Form-label">City</label>
         <input
@@ -127,7 +127,7 @@ const WeatherForm = () => {
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 };
 

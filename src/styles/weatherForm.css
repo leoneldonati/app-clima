@@ -1,24 +1,28 @@
 .Form {
-    max-width: 60%;
-    width: 40em;
-    padding: 2em;
+    max-width: max-content;
+    /* width: 40em; */
+    padding: 8em;
     display: flex;
-    flex-flow: column;
-    justify-content: space-around;
+    /* flex-flow: row nowrap; */
+    justify-content: space-between;
     align-items: center;
 
-    border: 3px solid rgba(220, 220, 220);
-    border-radius: 4em 1em;
+    border: 3px solid #F8F8FF;
+    border-radius: 4em;
 
-    box-shadow: inset 0 0 15px #DCDCDC;
-    gap: 1.2em;
+    box-shadow: inset 0 0 2em #F8F8FF;
+    gap: 3em;
 }
+
+
+/* Formulario */
 .Form-container {
     display: flex;
     flex-flow: column;
     text-align: center;
-    padding: 1em;
-    /* border: 1px solid #000; */
+    padding: 3em;
+    border: 1px solid #F8F8FF;
+    border-radius: 1em 3em;
 }
 .Form-label {
     /* border: 1px solid #000; */
@@ -30,25 +34,37 @@
 .Form-input {
     background: none;
     padding: .6em;
+    border-radius: 2em;
+}
+
+
+/* Informacion */
+.Card-container {
+    border: 1px solid;
+
+    padding: 3em;
+
+    text-align: center;
+}
+.Card-h1 {
     
+}
+.Card-ul {
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+
+    gap: 3em;
+
+    list-style: none;
+
+    margin-top: 2em;
+}
+.Card-li {
 
 }
-.Form-button {
-    padding: .6em;
-    font-family: var(--fuente_primaria);
-    border: 2px solid #282828;
-    border-radius: 40%;
-    font-weight: bold;
-    font-size: 1.1em;
-    background: none;
-    box-shadow: .4em .4em .1em #282828;
-    
-    transition: all .2s ease;
-}
-.Form-button:hover {
-    cursor: pointer;
-    background: rgba(220, 220, 220, .6);
-}
-.Form-button:active {
-    box-shadow: 0 0 .4em #282828;
+.Card-svg {
+
 }
