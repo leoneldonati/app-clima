@@ -20,7 +20,7 @@ const WeatherForm = () => {
   };
   
   //peticion a API
-  const URL = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=${import.meta.env.VITE_API_KEY}&units=metric`;
+  const URL = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=${import.meta.env.VITE_APP_API_KEY}&units=metric`;
 
   const getData = async () => {
     await fetch(URL)
